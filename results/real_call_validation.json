@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "booking_success": 0.6,
+    "turn_efficiency": 0.7333333333333334,
+    "info_completeness": 0.9,
+    "reward": 0.7083333333333334
+  },
+  "optimized": {
+    "booking_success": 1.0,
+    "turn_efficiency": 0.9333333333333333,
+    "info_completeness": 0.9,
+    "reward": 0.9583333333333334
+  },
+  "improvement": 0.25,
+  "improvement_pct": 35.29411764705882,
+  "baseline_sessions": [
+    "a4e770b3-a650-4e8f-8b6f-d3406f53d25c",
+    "06636ef1-a005-4810-94a5-efd1d285e9a6",
+    "368d2477-b032-4ff7-abe8-613c2a997014",
+    "05392358-69bb-4e2c-97f1-68c3876f3412",
+    "08807441-8ea6-4deb-89a1-e5422d9d72c1"
+  ],
+  "optimized_sessions": [
+    "e2c04be1-b359-4fa4-a873-2f4cdd174bcd",
+    "9170646f-5973-4876-a412-74d3bcc9288e",
+    "4eabd7ee-dff5-49a8-8a8b-1f00d4cef51a",
+    "e29df51c-9977-4c7e-b608-9e3c833aceab",
+    "205cd481-8509-42e1-87ac-d70637462fa3"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "baseline": {
+    "config": {
+      "greeting_style": 0,
+      "information_gathering": 0,
+      "error_recovery": 0,
+      "confirmation_style": 0
+    },
+    "scores": {
+      "booking_success": 0.6,
+      "turn_efficiency": 0.5333333333333334,
+      "info_completeness": 0.9,
+      "naturalness": 0.6799999999999999,
+      "reward": 0.6586666666666667
+    }
+  },
+  "final": {
+    "config": {
+      "greeting_style": 0,
+      "information_gathering": 1,
+      "error_recovery": 0,
+      "confirmation_style": 1
+    },
+    "scores": {
+      "booking_success": 0.8,
+      "turn_efficiency": 0.6333333333333334,
+      "info_completeness": 0.95,
+      "naturalness": 0.6799999999999999,
+      "reward": 0.7786666666666667
+    }
+  },
+  "improvement": {
+    "booking_success": 0.20000000000000007,
+    "turn_efficiency": 0.09999999999999998,
+    "info_completeness": 0.04999999999999993,
+    "naturalness": 0.0,
+    "reward": 0.12
+  },
+  "optimization_history": [
+    {
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 0,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.7983333333333333
+    },
+    {
+      "config": {
+        "greeting_style": 1,
+        "information_gathering": 0,
+        "error_recovery": 1,
+        "confirmation_style": 1
+      },
+      "reward": 0.8216666666666667
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8850000000000001
+    },
+    {
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 1,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.749
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 2,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8323333333333334
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 0,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.7983333333333333
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 0
+      },
+      "reward": 0.875
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 2
+      },
+      "reward": 0.7986666666666667
+    },
+    {
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.7616666666666667
+    },
+    {
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8783333333333333
+    }
+  ]
+}

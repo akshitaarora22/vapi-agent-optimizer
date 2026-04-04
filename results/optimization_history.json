@@ -1,0 +1,111 @@
+{
+  "history": [
+    {
+      "iteration": 1,
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 0,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.7983333333333333
+    },
+    {
+      "iteration": 2,
+      "config": {
+        "greeting_style": 1,
+        "information_gathering": 0,
+        "error_recovery": 1,
+        "confirmation_style": 1
+      },
+      "reward": 0.8216666666666667
+    },
+    {
+      "iteration": 3,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8850000000000001
+    },
+    {
+      "iteration": 4,
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 1,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.749
+    },
+    {
+      "iteration": 5,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 2,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8323333333333334
+    },
+    {
+      "iteration": 6,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 0,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.7983333333333333
+    },
+    {
+      "iteration": 7,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 0
+      },
+      "reward": 0.875
+    },
+    {
+      "iteration": 8,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 2
+      },
+      "reward": 0.7986666666666667
+    },
+    {
+      "iteration": 9,
+      "config": {
+        "greeting_style": 0,
+        "information_gathering": 1,
+        "error_recovery": 2,
+        "confirmation_style": 1
+      },
+      "reward": 0.7616666666666667
+    },
+    {
+      "iteration": 10,
+      "config": {
+        "greeting_style": 2,
+        "information_gathering": 1,
+        "error_recovery": 0,
+        "confirmation_style": 1
+      },
+      "reward": 0.8783333333333333
+    }
+  ],
+  "best_config": {
+    "greeting_style": 0,
+    "information_gathering": 1,
+    "error_recovery": 0,
+    "confirmation_style": 1
+  },
+  "best_reward": 0.8850000000000001
+}
