@@ -292,8 +292,7 @@ Agent:   Got it Elena. I'm checking our emergency availability for today. Since 
 **Key observation from real call transcripts:** The optimized config (`information_gathering=1`) collects name and preferred time in the same opening exchange, reducing unnecessary back-and-forth. The baseline asks for each field sequentially, adding 2-4 extra turns per conversation. Both configs collect all required information — the difference is efficiency.
 
 **Real Vapi session IDs** (inspect in your Vapi dashboard):
-- Baseline sessions: viewable at https://dashboard.vapi.ai/calls
-- Optimized sessions: viewable at https://dashboard.vapi.ai/calls
+- Vapi sessions: viewable at https://dashboard.vapi.ai/calls
 - Live assistant: https://dashboard.vapi.ai/assistants/b364cbaa-6da2-461c-b9d7-e7382c945ad8
 
 ---
