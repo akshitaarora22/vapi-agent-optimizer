@@ -10,9 +10,9 @@ No human in the loop and no grid search. Just principled black-box optimization 
 
 Given a Vapi dental office scheduler agent, this system:
 
-1. **Defines a search space** — 4 tunable axes of the agent's system prompt (greeting style, information gathering approach, error recovery, confirmation behavior), each with 2–3 candidate values → 54 total configurations
+1. **Defines a search space**: 4 tunable axes of the agent's system prompt (greeting style, information gathering approach, error recovery, confirmation behavior), each with 2–3 candidate values → 54 total configurations
 2. **Evaluates configurations** by simulating realistic patient conversations using Claude as both the patient and the quality judge
-3. **Optimizes using GP-BO** — a Gaussian Process surrogate model guides search toward high-reward configurations, balancing exploration and exploitation via Upper Confidence Bound (UCB) acquisition
+3. **Optimizes using GP-BO**: a Gaussian Process surrogate model guides search toward high-reward configurations, balancing exploration and exploitation via Upper Confidence Bound (UCB) acquisition
 4. **Validates** the best config on all 5 patient personas
 5. **Reports** before/after metrics with plots
 
