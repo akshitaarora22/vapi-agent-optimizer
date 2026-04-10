@@ -26,7 +26,7 @@ Each function evaluation (testing one prompt configuration) requires running ~5 
 
 | Method | Evaluations needed | Handles noise | Principled? |
 |---|---|---|---|
-| Grid search | 54 (exhaustive) | No | No |
+| Grid search | 81 (exhaustive) | No | No |
 | Random search | ~20–30 (lucky) | No | No |
 | Hill climbing | Depends on init | Poorly | No |
 | **GP-BO (ours)** | **6–10** | **Yes** | **Yes** |
